@@ -1,0 +1,14 @@
+#!name=去广告扩展模块
+#!desc=增加一些漏网之鱼
+#!author=xwcoco
+#!logtime=2025-09-22 13:48:15
+#!homepage=https://github.com/xwcoco
+
+
+
+#百词暂开屏
+URL-REGEX,^https?:\/\/advertise\.baicizhan\.com\/rpc\/advertise\/get_startup_ad_v2
+
+#直播吧广告
+IP-CIDR,118.178.168.156/32
+IP-CIDR,47.111.8.123/32
