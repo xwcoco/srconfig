@@ -3,12 +3,12 @@
 #!author=xwcoco
 #!logtime=2025-09-22 13:48:15
 #!homepage=https://github.com/xwcoco
+#!moduleurl=https://github.com/xwcoco/srconfig/raw/main/module/myad.module
 
-
-
+[Rule]
 #百词暂开屏
-URL-REGEX,^https?:\/\/advertise\.baicizhan\.com\/rpc\/advertise\/get_startup_ad_v2
+URL-REGEX,^https?:\/\/advertise\.baicizhan\.com\/rpc\/advertise\/get_startup_ad_v2,REJECT
 
 #直播吧广告
-IP-CIDR,118.178.168.156/32
-IP-CIDR,47.111.8.123/32
+IP-CIDR,118.178.168.156/32,REJECT
+IP-CIDR,47.111.8.123/32,REJECT
